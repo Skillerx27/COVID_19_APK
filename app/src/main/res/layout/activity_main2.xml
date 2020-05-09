@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#5DF5E4"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আপনার কি জ্বর আছে ?"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="অর্থাৎ, শরীরের তাপমাত্রা ৩৭.৫°C অথবা,"
+
+        android:textSize="20sp" /><TextView
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="৯৮.৪°F থেকে বেশি ?"
+
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/FirstNo"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openActivityNa"
+        android:text="না" />
+
+    <Button
+        android:id="@+id/FirstYes"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openActivityYes"
+        android:text="হ্যা" />
+
+</LinearLayout>

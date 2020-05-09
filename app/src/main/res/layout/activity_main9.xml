@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5DF5E4"
+    android:orientation="vertical"
+    tools:context=".MainActivity9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="করোনাভাইরাস বিষয়ে যোগাযোগ করতে আইইডিসিআরের ফেসবুক পেজ- IEDCR, COVID19 Control Room, এ ছাড়া ই–মেইল ঠিকানা- iedcrcovid19@gmail.com
+
+আইইডিসিআরের হটলাইন নম্বর: +8801944333222, +8801550064901, +8801937000011, +8801550064902, +8801937110011, +8801550064903, +8801927711784, +8801550064904, +880192711785, +8801550064905,"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="jumpintobegin2"
+            android:text="ফেসবুক গ্রুপ" />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="jumpintobegin3"
+            android:text="ফেসবুক গ্রুপ" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
